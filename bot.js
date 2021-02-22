@@ -392,8 +392,8 @@ client.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 3000000000000; x++) {
-        message.channel.send(`**HI **[ " ${X} " ]`)
+      for(let x = 0; x < 3000000000; x++) {
+        message.channel.send(`** HI **[ " ${X} " ]`)
           .then(m => {
             count++;
           })
@@ -407,7 +407,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 300000; x++) {
-        message.channel.send(`**hi **[ " ${x} " ]`)
+        message.channel.send(`** hi **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
