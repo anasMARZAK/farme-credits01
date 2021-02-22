@@ -406,8 +406,8 @@ client2.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 30000; x++) {
-        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+      for(let x = 0; x < 300000; x++) {
+        message.channel.send(`**hi **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
