@@ -421,7 +421,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000000000; x++) {
-        message.channel.send(`**i love youuu... **[ " ${x} " ]`)
+        message.channel.send(`**i love youuu... **[ " ${lag} " ]`)
           .then(m => {
             count++;
           })
