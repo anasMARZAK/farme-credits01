@@ -127,8 +127,8 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if(message.content.startsWith("$s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
+    var text = message.content.split('hi').slice(1).join(' ');
+     message.channel.send(hello);
   }
 });
 
